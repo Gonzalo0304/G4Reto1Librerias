@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package clases;
 
 
@@ -11,6 +6,7 @@ package clases;
  * @author David
  */
 public class Mensaje {
+
     //Variables
     private Usuario user;
     private MessageEnum messageEnum;
@@ -40,6 +36,5 @@ public class Mensaje {
     public void setMessageType(MessageEnum messageEnum) {
         this.messageEnum = messageEnum;
     }
-    
-    
+
 }
