@@ -5,7 +5,6 @@
  */
 package clases;
 
-import java.awt.TrayIcon.MessageType;
 
 /**
  *
