@@ -1,7 +1,5 @@
 package clases;
 
-import java.awt.TrayIcon.MessageType;
-
 /**
  *
  * @author David
@@ -10,15 +8,15 @@ public class Mensaje {
 
     //Variables
     private Usuario user;
-    private MessageType messageType;
+    private MessageEnum messageEnum;
 
     //Constructores
     public Mensaje() {
     }
 
-    public Mensaje(Usuario user, MessageType messageType) {
+    public Mensaje(Usuario user, MessageEnum messageEnum) {
         this.user = user;
-        this.messageType = messageType;
+        this.messageEnum = messageEnum;
     }
 
     //Getters y setters
@@ -30,12 +28,12 @@ public class Mensaje {
         this.user = user;
     }
 
-    public MessageType getMessageType() {
-        return messageType;
+    public MessageEnum getMessageEnum() {
+        return messageEnum;
     }
 
-    public void setMessageType(MessageType messageType) {
-        this.messageType = messageType;
+    public void setMessageEnum(MessageEnum messageEnum) {
+        this.messageEnum = messageEnum;
     }
 
 }
