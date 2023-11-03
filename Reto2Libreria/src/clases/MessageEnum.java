@@ -7,7 +7,7 @@ package clases;
 
 /**
  *
- * @author Iñigo
+ * @author David
  */
 public enum MessageEnum {
     SIGNIN, SIGNUP, ERRORSIGNIN, ERRORSIGNUP, OK, ERRORSERVER
