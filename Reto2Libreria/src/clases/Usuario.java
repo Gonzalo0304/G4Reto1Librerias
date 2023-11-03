@@ -5,13 +5,14 @@
  */
 package clases;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 /**
  *
  * @author Iñigo
  */
-public class Usuario {
+public class Usuario implements Serializable{
 
     //Variables
     private String id;

@@ -1,10 +1,12 @@
 package clases;
 
+import java.io.Serializable;
+
 /**
  *
  * @author David
  */
-public class Mensaje {
+public class Mensaje implements Serializable{
 
     //Variables
     private Usuario user;
