@@ -29,11 +29,11 @@ public class Mensaje {
         this.user = user;
     }
 
-    public MessageEnum getMessageType() {
+    public MessageEnum getMessageEnum() {
         return messageEnum;
     }
 
-    public void setMessageType(MessageEnum messageEnum) {
+    public void setMessageEnum(MessageEnum messageEnum) {
         this.messageEnum = messageEnum;
     }
 
