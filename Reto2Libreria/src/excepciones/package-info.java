@@ -3,12 +3,4 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clases;
-
-/**
- *
- * @author David
- */
-public enum MessageEnum {
-    SIGNIN, SIGNUP, ERRORSIGNIN, ERRORSIGNUP, OK, ERRORSERVER, MAXUSERS, ERROR
-}
+package excepciones;

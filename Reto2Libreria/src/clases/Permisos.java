@@ -7,8 +7,8 @@ package clases;
 
 /**
  *
- * @author David
+ * @author Gonzalo
  */
-public enum MessageEnum {
-    SIGNIN, SIGNUP, ERRORSIGNIN, ERRORSIGNUP, OK, ERRORSERVER, MAXUSERS, ERROR
+public class Permisos {
+    
 }
