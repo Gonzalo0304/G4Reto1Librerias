@@ -6,7 +6,7 @@
 package excepciones;
 
 /**
- *
+ * Esta es la excepcion para cuando el servidor no esta funcionando o esta dando algun error a la hora de conectarse
  * @author David.
  */
 public class ServerErrorException extends Exception {

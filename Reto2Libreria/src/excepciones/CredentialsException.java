@@ -6,6 +6,8 @@
 package excepciones;
 
 /**
+ * Esta es la excepcion para cuando da error alguno de los campos al iniciar
+ * sesion
  *
  * @author David.
  */

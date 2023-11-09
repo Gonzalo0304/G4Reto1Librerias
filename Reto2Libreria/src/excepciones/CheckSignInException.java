@@ -6,16 +6,17 @@
 package excepciones;
 
 /**
+ * Esta es la excepcion para el Sign In
  *
  * @author Iñigo
  */
 public class CheckSignInException extends Exception {
-    
-     public CheckSignInException(String message) {
+
+    public CheckSignInException(String message) {
         super(message);
     }
 
     public CheckSignInException() {
     }
-    
+
 }

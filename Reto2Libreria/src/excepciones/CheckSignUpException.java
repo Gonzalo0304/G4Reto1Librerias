@@ -6,11 +6,12 @@
 package excepciones;
 
 /**
+ * Esta es la excepcion para el Sign Up
  *
  * @author Iñigo
  */
 public class CheckSignUpException extends Exception {
-    
+
     public CheckSignUpException(String message) {
         super(message);
     }
@@ -18,5 +19,5 @@ public class CheckSignUpException extends Exception {
     public CheckSignUpException() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
 }

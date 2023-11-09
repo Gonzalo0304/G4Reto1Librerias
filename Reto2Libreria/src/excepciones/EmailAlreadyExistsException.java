@@ -6,7 +6,7 @@
 package excepciones;
 
 /**
- *
+ * Esta es la excepcion para cuando al registrarse el coreo introducido ya existe
  * @author David.
  */
 public class EmailAlreadyExistsException extends Exception {
