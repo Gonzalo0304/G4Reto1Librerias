@@ -9,8 +9,11 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 /**
+ * La clase Usuario representa a un usuario en la aplicación. Contiene información como el identificador (id), nombre, email,
+ * contraseña, dirección, número de teléfono, código postal, permisos, fecha de creación y nombre de la empresa a la que pertenece.
  *
- * @author Iñigo
+ *
+ * @author Iñigo,Gonzalo
  */
 public class Usuario implements Serializable{
 
@@ -22,7 +25,6 @@ public class Usuario implements Serializable{
     private String direccion;
     private int telefono;
     private int codigoPostal;
-    private Permisos permiso;
     private LocalDate creacion;
     private String empresa;
 
@@ -30,7 +32,7 @@ public class Usuario implements Serializable{
     public Usuario() {
     }
 
-    public Usuario(String id, String nombre, String email, String pass, String direccion, int telefono, int codigoPostal, Permisos permiso, LocalDate creacion, String empresa) {
+    public Usuario(String id, String nombre, String email, String pass, String direccion, int telefono, int codigoPostal, LocalDate creacion, String empresa) {
         this.id = id;
         this.nombre = nombre;
         this.email = email;
@@ -38,7 +40,6 @@ public class Usuario implements Serializable{
         this.direccion = direccion;
         this.telefono = telefono;
         this.codigoPostal = codigoPostal;
-        this.permiso = permiso;
         this.creacion = creacion;
         this.empresa = empresa;
     }
@@ -99,14 +100,6 @@ public class Usuario implements Serializable{
 
     public void setCodigoPostal(int codigoPostal) {
         this.codigoPostal = codigoPostal;
-    }
-
-    public Permisos getPermiso() {
-        return permiso;
-    }
-
-    public void setPermiso(Permisos permiso) {
-        this.permiso = permiso;
     }
 
     public LocalDate getCreacion() {
