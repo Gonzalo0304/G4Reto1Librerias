@@ -3,14 +3,15 @@ package clases;
 import java.io.Serializable;
 
 /**
- * La clase Mensaje representa un objeto que contiene información relacionada con la comunicación entre cliente y servidor.
- * Se utiliza para enviar información, como un objeto Usuario y un tipo de mensaje específico (MessageEnum), entre las
- * diferentes partes del sistema
+ * La clase Mensaje representa un objeto que contiene información relacionada
+ * con la comunicación entre cliente y servidor. Se utiliza para enviar
+ * información, como un objeto Usuario y un tipo de mensaje específico
+ * (MessageEnum), entre las diferentes partes del sistema
  *
  *
  * @author David
  */
-public class Mensaje implements Serializable{
+public class Mensaje implements Serializable {
 
     //Variables
     private Usuario user;
