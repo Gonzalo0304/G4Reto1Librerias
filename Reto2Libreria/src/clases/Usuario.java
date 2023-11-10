@@ -9,8 +9,11 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 /**
+ * La clase Usuario representa a un usuario en la aplicación. Contiene información como el identificador (id), nombre, email,
+ * contraseña, dirección, número de teléfono, código postal, permisos, fecha de creación y nombre de la empresa a la que pertenece.
  *
- * @author Iñigo
+ *
+ * @author Iñigo,Gonzalo
  */
 public class Usuario implements Serializable{
 
