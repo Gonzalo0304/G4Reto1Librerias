@@ -17,7 +17,6 @@ public class CheckSignUpException extends Exception {
     }
 
     public CheckSignUpException() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
